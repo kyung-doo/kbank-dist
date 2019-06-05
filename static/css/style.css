@@ -465,17 +465,17 @@ body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-wei
 .series-group li:last-child{margin-bottom: 0;}
 .series-group.no-data:after{display:block;content: "자료가 없습니다."; text-align: center; color: #999; line-height: 100px; font-size: 18px;}
 .drag-area li:last-child{margin-bottom: 0;}
-.series-item{min-height: 40px; background-color: #fff; padding: 8px 12px; line-height: 140%; position: relative;box-shadow:0 0 10px rgba(0,0,0,0.1); border-radius: 2px; margin-bottom: 5px; cursor: move; padding-right: 40px; font-size: 14px;}
+.series-item{min-height: 40px; background-color: #fff; padding: 4px 12px; line-height: 140%; position: relative;box-shadow:0 0 10px rgba(0,0,0,0.1); border-radius: 2px; margin-bottom: 5px; cursor: move; padding-right: 40px; font-size: 14px;}
 .series-item .icon{float: left; height: 24px; line-height: 24px; display: inline-block; margin-right: 10px;  cursor: move; position: absolute; left: 12px; top: 50%; margin-top: -13px;}  /* 0604 */
 .series-item .listRight{position: absolute; right: 12px; top: 50%; margin-top: -9px;}
 .series-item .listRight i{opacity: 0.3; transition: all 0.4s ease;}
 .series-item:hover .tit{color:#00acdc;}
 .series-item:hover .listRight i{opacity:1;}
-.series-item .tit{max-height: 35px;overflow: hidden;text-overflow: ellipsis;display: flex;-webkit-line-clamp: 2;word-wrap: break-wrod;transition: all .4s ease;align-items: center;min-height: 20px;} /* 0604 */
+.series-item .tit{max-height: 35px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-wrod; transition: all 0.4s ease;} /* 0604 */
 .dataMenu{text-align: right; padding: 15px 20px;}
 .drag-area{min-height: 100px;}
 .drag-area.no-data:after{content: "이곳에 데이터를 끌어다 놓아주세요."; text-align: center; color: #999; line-height: 100px; font-size: 18px;}
-.list-group .series-item{padding-right: 170px; padding-left: 34px;} /* 0604 */
+.list-group .series-item{padding-right: 170px; padding-left: 34px;display: table-cell;    padding-top: 9px;padding-bottom: 10px;} /* 0604 */
 .list-group .series-item:hover .tit{color: #333;}
 .series-item .itemMenu {position: absolute; right: 12px; top: 50%; transform: translateY(-50%); height: 28px;}
 .series-item .itemMenu a.list-del{transition: all 0.4s ease; opacity: 0.3; font-size: 18px; margin-left: 10px; position: relative; top: 1px; cursor: pointer;}
@@ -558,7 +558,7 @@ body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-wei
 .top-title span:nth-child(1){width: 415px;}
 .top-title span:nth-child(2){width: 151px; margin-left: 2px;}
 .top-title span:nth-child(3){width: 40px; float: right;}
-.graph-list{padding: 10px;}
+.graph-list{padding: 10px;display: table}
 .selectRange{text-align: center; margin-bottom:10px;}
 .selectRange dt{float: left; margin-right: 20px; font-weight: 400; font-size: 16px;}
 .selectRange dd{float: left;}
