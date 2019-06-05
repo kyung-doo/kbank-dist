@@ -1,0 +1,22 @@
+[
+{"agency_id":"BIS","agengy_desc":"Bank for International Settlements","count":"6","dataset":[
+	{"dataset_id":"BIS_CBPOL","dataset_nm":"BIS Central Bank Policy Rates"}
+	,{"dataset_id":"BIS_CBS_PUB","dataset_nm":"Consolidated banking (CBS)"}
+	,{"dataset_id":"BIS_CPP","dataset_nm":"Commercial property prices"}
+	,{"dataset_id":"BIS_CREDIT_GAP","dataset_nm":"Credit to GDP gap"}
+	,{"dataset_id":"BIS_DSR","dataset_nm":"Debt service ratio"}
+	,{"dataset_id":"BIS_EER","dataset_nm":"BIS Effective Exchange Rates"}
+	]
+},{"agency_id":"CPB","agency_desc":"CPB Netherlands Bureau for Economic Policy Analysis","count":"2","dataset":[
+	{"dataset_id":"INPRO_OUT","dataset_nm":"Industrial production volume excluding construction, fixed base 2010=100"}
+	,{"dataset_id":"TRADE_OUT","dataset_nm":"Merchandise world trade, fixed base 2010=100"}
+	]
+},{"agency_id":"KOSIS","agency_desc":"KOrean Statistical Information Service","count":"5","dataset":[
+	{"dataset_id":"101_DT_1DA7011S","dataset_nm":"취업시간별 취업자"}
+	,{"dataset_id":"101_DT_1DA7031","dataset_nm":"행정구역(시도)/연령별 취업자"}
+	,{"dataset_id":"101_DT_1DA7031S","dataset_nm":"행정구역(시도)/연령별 취업자"}
+	,{"dataset_id":"101_DT_1DA7035","dataset_nm":"행정구역(시도)/종사상지위별 취업자"}
+	,{"dataset_id":"101_DT_1DA7035S","dataset_nm":"행정구역(시도)/종사상지위별 취업자"}
+	]
+}
+]
