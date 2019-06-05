@@ -558,7 +558,7 @@ body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-wei
 .top-title span:nth-child(1){width: 415px;}
 .top-title span:nth-child(2){width: 151px; margin-left: 2px;}
 .top-title span:nth-child(3){width: 40px; float: right;}
-.graph-list{padding: 10px;display: table}
+.graph-list{padding: 10px;display: table;width:100%;}
 .selectRange{text-align: center; margin-bottom:10px;}
 .selectRange dt{float: left; margin-right: 20px; font-weight: 400; font-size: 16px;}
 .selectRange dd{float: left;}
