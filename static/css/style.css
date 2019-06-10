@@ -371,19 +371,19 @@ input.timepicker{text-align: center;}
 /* layout */
 html, body {position: relative;}
 html{font-size: 14px; min-width: 1200px;} /* min-width: 1280px; */
-body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-weight: 400; color: #222; font-size: 14px; letter-spacing:-0.3px;}
+body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-weight: 400; color: #222; font-size: 14px;}
 
 .contents_box{min-width:1200px; margin: auto; position: relative; box-sizing: border-box; padding: 0 30px;}
 .contents_box:after{content: ""; display: block; clear: both;}
 
 #wrapper{ width: 100%;}
-#indexHeader{position: relative; height: 425px; box-sizing: border-box; text-align: center; background: url(/static/img/bg_index.png) no-repeat 50% 50%; background-size: cover; padding-top: 100px; color: #fff;}
+#indexHeader{position: relative; box-sizing: border-box; text-align: center; background: url(/static/img/bg_index.png) no-repeat 50% 50%; background-size: cover; padding-top: 150px;  padding-bottom: 150px; color: #fff;}
 #headTop{height: 40px; background-color: #00acdc;}
 #headTop h1{float: left; } /* 0605 */
 #headTop h1 a {line-height: 40px; color: #fff; font-size: 20px}
 #headTop ul.topMenu{float: right;}
 #headTop ul.topMenu li{float: left;}
-#headTop ul.topMenu li a{color: #fff; line-height: 40px; font-weight: 300; text-transform: uppercase;}
+#headTop ul.topMenu li a{color: #fff; line-height: 40px; font-weight: 300;}
 #headTop ul.topMenu li a:hover{text-decoration: underline;}
 #headTop ul.topMenu li:before{content: "|"; color: #fff; font-size: 11px; float: left; line-height: 40px; width: 30px; text-align: center; opacity: 0.5;}
 #headTop ul.topMenu li:first-child:before{display: none;}
@@ -432,7 +432,7 @@ body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-wei
 }
 #contents .contents_box{box-sizing: border-box; padding-top: 20px; padding-bottom: 20px; }
 #contents .graphBlock{height: 100%; position: relative;}
-#contents .graphBlock .resizebar{height: 100%; position: relative; width: 1%; float: left; cursor: col-resize;}
+#contents .graphBlock .resizebar{height: 100%; position: relative; width: 1%; float: left; /*cursor: col-resize;*/}
 #contents .graphBlock .blockcon{height: 100%; float: left;  background-color: #fff; border-radius: 6px; box-shadow:0 0 10px rgba(0,0,0,0.3); position: relative; box-sizing: border-box; overflow: hidden;}
 #contents .graphBlock .blockcon:nth-child(1){width: 30%;  padding-bottom: 20px;}
 #contents .graphBlock .blockcon:nth-child(3){width: 30%;   padding-bottom: 20px; padding-right:0px;}
@@ -674,9 +674,13 @@ body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-wei
 
 .linkList{margin: auto;}
 .linkList h2{text-align: center; padding-top: 30px; padding-bottom: 30px; font-size: 30px; display:block;}
-.linkList ul{text-align: center; max-width: 1200px; margin: auto;}
+.linkList ul{text-align: center; width: 1200px; margin: auto;}
 .linkList li {display: inline-block; margin:5px 10px; float: left;}
-.linkList li a{display: table; background-color: #fff; height: 90px; border-radius: 5px; width: 279px; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding-left: 90px; position: relative; padding-right: 20px; font-size: 16px; transition: all 0.2s ease;}
-.linkList li a span{display: table-cell; width: 100%; height: 100%; vertical-align: middle; text-align: left;}
-.linkList li a img{position: absolute; left: 20px; top: 50%; transform: translateY(-50%); width: 50px;}
+.linkList li a{display: table; background-color: #fff; height: 90px; border-radius: 5px; width: 279px; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding-left: 90px; position: relative; padding-right: 20px; font-size: 20px; transition: all 0.2s ease;}
+.linkList li a span{display: table-cell; width: 100%; height: 100%; vertical-align: middle; text-align: left; line-height: 160%;}
+.linkList li a img{position: absolute; left: 20px; top: 50%; transform: translateY(-50%); max-width: 50px;}
 .linkList li a:hover{transform: translateY(-5px); color: #00acdc;}
+.linkList li.size2x2 a{ width: 578px; height: 190px; box-sizing: border-box; padding: 30px; padding-left: 90px;}
+.linkList li.size2x2 a span{vertical-align: top;}
+.linkList li.size2x2 a img{transform: none; top: 30px;}
+.linkList li.size2x1 a{ width: 578px; box-sizing: border-box;}
