@@ -410,7 +410,7 @@ body{font-family:'Noto Sans KR', sans-serif; background-color: #efefef; font-wei
 #subHeader .nav li a.router-link-active{color: #00acdc;}
 #subHeader .nav li a.router-link-active:after{width: 100%;}
 
-#footer{background-color: #fff;}
+#footer{background-color: #fff;border-top:solid 1px #ccc}
 #footer .contents_box{padding-left: 255px; background: url(/static/img/img_logo_bottom.png) no-repeat 60px center; height: 100px; padding-top: 30px;}
 #footer .contents_box .address{color: #333333;}
 #footer .contents_box .copyright{color: #a9a9a9; margin-top: 5px; font-weight:300;}
